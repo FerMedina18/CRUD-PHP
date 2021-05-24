@@ -1,0 +1,6 @@
+CREATE TABLE `alumno` (
+  `cod_estudiante` int(11) NOT NULL,
+  `dni` int(11) NOT NULL,
+  `nombres` varchar(20) NOT NULL,
+  `apellidos` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
